@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/sigentouxiang"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="151dp"
+            android:layout_marginTop="39dp"
+            android:src="@mipmap/ic_launcher" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="48dp">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_baseline_person_24"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="48dp"
+            android:layout_marginEnd="48dp"
+            android:hint="yuur name"
+            android:inputType="text"
+            android:maxLines="1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="48dp">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/ic_baseline_person_24" />
+
+        <EditText
+            android:id="@+id/et_s_acount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="48dp"
+            android:layout_marginEnd="48dp"
+            android:hint="Email/Account"
+            android:inputType="text"
+            android:maxLines="1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_baseline_fiber_manual_record_24"/>
+
+        <EditText
+            android:id="@+id/et_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="4dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+        <ImageView
+            android:id="@+id/iv_pwd_switch"
+            android:layout_width="24dp"
+            android:layout_height="24sp"
+            android:layout_marginBottom="6dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_baseline_fiber_smart_record_24"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_baseline_fiber_manual_record_24"/>
+
+        <EditText
+            android:id="@+id/et_pwd2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="4dp"
+            android:hint="RePassword"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+        <ImageView
+            android:id="@+id/iv_pwd_switch2"
+            android:layout_width="24dp"
+            android:layout_height="24sp"
+            android:layout_marginBottom="6dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_baseline_fiber_smart_record_24"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bt_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:text="sign"
+            android:textColor="@color/design_default_color_on_primary" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:text="back"
+        android:textColor="@color/design_default_color_on_primary" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+
+</LinearLayout>

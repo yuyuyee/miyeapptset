@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">tset</string>
+    <!--login-->
+    <string name="shared_prefernces_file_name">sp_login
+    </string>
+    <string name="login_account_name">
+        login_account_name
+    </string>
+    <string name="login_password">login_password
+    </string>
+    <string name="login_remember_password">
+        login_remember_password
+    </string>
+</resources>

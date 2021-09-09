@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="titles">
+    <item>Is Tomato a Vegetable or a Fruit?</item>
+    <item>Why do Clocks Run Clockwise?</item>
+    <item>Who Invented The Pen?</item>
+    <item>Abdul Kareem’s Forest</item>
+        <item>Is Tomato a Vegetable or a Fruit?1</item>
+        <item>Why do Clocks Run Clockwise?1</item>
+        <item>Who Invented The Pen?1</item>
+        <item>Abdul Kareem’s Forest1</item>
+    </string-array>
+
+    <string-array name="authors">
+    <item>yuyue</item>
+    <item>Rama </item>
+    <item>Gargi Pant</item>
+    <item>Brishti Bandyopadhyay</item>
+        <item>Chitra Padmanabhan</item>
+        <item>Rama Kumaraswamy Thoopal</item>
+        <item>Gargi Pant</item>
+        <item>Brishti Bandyopadhyay</item>
+    </string-array>
+    <string-array name="goods">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="images">
+    <item>@drawable/img_1</item>
+    <item>@drawable/img_2</item>
+    <item>@drawable/img_3</item>
+    <item>@drawable/img_4</item>
+    <item>@drawable/img_5</item>
+    <item>@drawable/img_6</item>
+        <item>@drawable/img_5</item>
+        <item>@drawable/img_6</item>
+    </string-array>
+    <string-array name="user_count">
+        <item>1111</item>
+        <item>2222</item>
+    </string-array>
+    <string-array name="userpaw">
+        <item>1111</item>
+        <item>2222</item>
+    </string-array>
+    <string-array name="userimage">
+        <item>img_1</item>
+        <item>img_2</item>
+    </string-array>
+</resources>
